@@ -1,0 +1,18 @@
+div.smirc_wrapper h2{
+  font-size: 13px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  padding-left: 14px;
+}
+
+div.smirc_wrapper h2.expanded{
+  background-image: url('/wp-content/plugins/social-media-integrated-related-content-smirc/img/expanded.png');
+}
+
+div.smirc_wrapper h2.collapsed{
+  background-image: url('/wp-content/plugins/social-media-integrated-related-content-smirc/img/collapsed.png');
+}
+
+div.smirc_wrapper ul.smirc_ul{
+  display: none;
+};
