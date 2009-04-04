@@ -1,0 +1,31 @@
+div.smirc_wrapper{
+  font-size: 11px;
+}
+
+div.smirc_wrapper h2{
+  font-size: 13px;
+}
+
+div.smirc_wrapper h2 a{
+  text-decoration: underline;
+}
+
+div.smirc_wrapper ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+}
+
+div.smirc_wrapper ul li{
+  list-style-image: none;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+div.smirc_wrapper ul li.result_header{
+  font-weight: bold;
+}
+
+div.smirc_wrapper ul li a{
+  font-weight: bold;
+}
