@@ -4,8 +4,8 @@ Tags: related content, blogs, posts, google, google blog search, social media, t
 Donate link: http://www.husani.com/ventures/wordpress-plugins/smirc/
 Requires at least: 2.7
 Tested up to: 2.7.1
-Stable tag: 1.0
-Version: 1.0
+Stable tag: 1.1
+Version: 1.1
 
 Like trackbacks, but not -- this plugin searches and displays content related to your CONTENT, not just posts that link to yours.
 
@@ -24,6 +24,8 @@ using standard UL and LI tags, and can be modified to fit your theme via two CSS
 SMIRC is released to the Wordpress community under the GPL.  Please feel free to modify as you see fit, and if you find this plugin useful, donate
 to the author.  All feedback is welcome at wordpressplugins@husani.com, and you can visit the author's websites at http://www.husani.com and 
 http://www.evb.com.
+
+**UPDATE FOR v1.1**: Fixed a bug with setting header text.
 
 == Installation ==
 

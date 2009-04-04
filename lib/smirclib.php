@@ -24,7 +24,7 @@ class SMIRC{
     $this->title_separators = $title_separators;
     $this->required_keyword = $required_keyword;
     $this->data_sources = $data_sources;
-    if($this->header_text == ""){
+    if($header_text == ""){
       $this->header_text = $this->default_header_text;
     } else {
       $this->header_text = $header_text;
