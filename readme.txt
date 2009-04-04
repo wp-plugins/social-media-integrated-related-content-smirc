@@ -4,7 +4,7 @@ Tags: related content, blogs, posts, google, google blog search, social media, t
 Donate link: http://www.husani.com/ventures/wordpress-plugins/smirc/
 Requires at least: 2.7
 Tested up to: 2.7.1
-Stable tag: trunk
+Stable tag: 1.0
 Version: 1.0
 
 Like trackbacks, but not -- this plugin searches and displays content related to your CONTENT, not just posts that link to yours.
