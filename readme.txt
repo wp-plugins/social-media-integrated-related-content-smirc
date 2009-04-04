@@ -1,6 +1,7 @@
 === Social Media Integrated Related Content (SMIRC) ===
 Contributors: husani
 Tags: related content, blogs, posts, google, google blog search, social media, trackbacks, twitter
+Donate link: http://www.husani.com/ventures/wordpress-plugins/smirc/
 Requires at least: 2.7
 Tested up to: 2.7.1
 Stable tag: trunk
@@ -63,6 +64,6 @@ this plugin and release to the community.
 
 == Screenshots ==
 
-1. Admin panel, `/trunk/screenshots/admin_panel.png`
-2. SMIRC, `/trunk/screenshots/smirc_no_ani.png`
-3. SMIRC with animated reveal and collapsed, `/trunk/screenshots/smirc_collapsed.png`
+1. Admin panel, `screenshots/admin_panel.png`
+2. SMIRC, `screenshots/smirc_no_ani.png`
+3. SMIRC with animated reveal and collapsed, `screenshots/smirc_collapsed.png`
