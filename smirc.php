@@ -3,7 +3,7 @@
 Plugin Name: Social Media Integrated Related Content (SMIRC)
 Plugin URI: http://www.husani.com/ventures/wordpress-plugins/smirc
 Description: Searches the blogosphere for content related to your content and displays links/summaries on your page or inside your posts.  Revealing the links/summaries requires <a href="http://www.jquery.com/">jQuery</a>.  By <a href="http://www.husani.com" target="_blank">Husani Oakley</a> and <a href="http://www.evb.com">Evolution Bureau</a>.
-Version: 1.0
+Version: 1.1
 */
 
 /*  Copyright 2009  Husani Oakley  (email : wordpressplugins@husani.com)
