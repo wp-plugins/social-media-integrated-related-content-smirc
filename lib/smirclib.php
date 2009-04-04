@@ -68,7 +68,7 @@ class SMIRC{
       return false;
     } else {
       $all_xhtml = '<div class="smirc_wrapper">';
-      $all_xhtml .= '<h2 class="expanded">'.$this->_getHeaderXHTML().'</h2>';  
+      $all_xhtml .= '<h2 class="collapsed">'.$this->_getHeaderXHTML().'</h2>';  
       $all_xhtml .= '<ul class="smirc_ul">';
 
       //add results to overall xhtml

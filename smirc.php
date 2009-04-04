@@ -23,7 +23,9 @@ Version: 1.0
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-require_once(ABSPATH . PLUGINDIR . "/smirc/lib/smirclib.php");
+$plugin_name = "/social-media-integrated-related-content-smirc";
+
+require_once(ABSPATH . PLUGINDIR . $plugin_name . "/lib/smirclib.php");
 require_once(ABSPATH . WPINC . '/rss.php');
 
 function smirc($page_title, $header_text_pre=false, $header_text_post=false){
@@ -87,11 +89,12 @@ add_action('admin_menu', '_smirc_admin');
  */
 //add css and js to head, as required
 function _smirc_head(){
-  echo '<link rel="stylesheet" href="/' . PLUGINDIR . '/smirc/css/main.css" type="text/css" />' . "\n";
+  global $plugin_name;
+  echo '<link rel="stylesheet" href="/' . PLUGINDIR . $plugin_name . '/css/main.css" type="text/css" />' . "\n";
   /** add animation css/js to head if required */
   if(get_option('animate_reveal')){
-    echo '<link rel="stylesheet" href="/' . PLUGINDIR . '/smirc/css/animate.css" type="text/css" />' . "\n";
-    echo '<script language="javascript" type="text/javascript" src="/' . PLUGINDIR . '/smirc/js/animate.js"></script>' . "\n";
+    echo '<link rel="stylesheet" href="/' . PLUGINDIR . $plugin_name . '/css/animate.css" type="text/css" />' . "\n";
+    echo '<script language="javascript" type="text/javascript" src="/' . PLUGINDIR . $plugin_name . '/js/animate.js"></script>' . "\n";
   }
 }
 
@@ -102,7 +105,8 @@ function _smirc_admin(){
 
 //display options panel
 function _smirc_options(){
-  include_once(ABSPATH . PLUGINDIR . "/smirc/admin/panel.inc.php");
+  global $plugin_name;
+  include_once(ABSPATH . PLUGINDIR . $plugin_name . "/admin/panel.inc.php");
 }
 
 ?>

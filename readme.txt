@@ -64,6 +64,6 @@ this plugin and release to the community.
 
 == Screenshots ==
 
-1. Admin panel, `screenshots/admin_panel.png`
-2. SMIRC, `screenshots/smirc_no_ani.png`
-3. SMIRC with animated reveal and collapsed, `screenshots/smirc_collapsed.png`
+1. Admin panel
+2. SMIRC
+3. SMIRC with animated reveal and collapsed
